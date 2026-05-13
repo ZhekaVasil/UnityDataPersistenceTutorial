@@ -426,7 +426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f719aff8cd89145b100110f532ab2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UserName: 
+  CurrentUserName: 
+  BestScoreUserName: 
+  BestScoreValue: 0
 --- !u!4 &207995849
 Transform:
   m_ObjectHideFlags: 0
@@ -637,7 +639,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Best Score
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1024,6 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f531a6e003262864e8f1ac32d264125f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bestScoreText: {fileID: 522780599}
 --- !u!1 &1582358287
 GameObject:
   m_ObjectHideFlags: 0
